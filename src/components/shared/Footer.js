@@ -98,14 +98,12 @@ const Footer = () => {
             <Logo />
           </Link>
           <div>
-            <FooterLink to="/about">About us</FooterLink>
-            <FooterLink to="/#explore">Explore offerings</FooterLink>
             <FooterLink
               as="a"
               target="_blank"
-              href="https://carrythroughcovid.s3-ap-southeast-2.amazonaws.com/ctc_terms.pdf"
+              href="https://carrythroughcovid.s3-ap-southeast-2.amazonaws.com/ctc_privacy.pdf"
             >
-              Terms
+              Privacy Policy
             </FooterLink>
             <CTALink to="/signup">
               Sign up now <ArrowIcon size="1.5rem" />
@@ -136,7 +134,7 @@ const Footer = () => {
             </SocialLink>
           </SocialWrapper>
           <CopyContent>
-            © {new Date().getFullYear()} carry through covid
+            © {new Date().getFullYear()} CTC
           </CopyContent>
         </ContentWrapper>
       </Container>
