@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import LogoDark from '../../assets/logoDark.svg'
-import LogoLight from '../../assets/logoLight.svg'
+import LogoSmall from '../../assets/logoSmall.svg'
 
 const StyledLogo = styled.div`
   font-size: 28px;
@@ -10,8 +9,8 @@ const StyledLogo = styled.div`
   color: black;
 `
 
-const Logo = ({ light }) => {
-  return <StyledLogo>{light ? <LogoDark /> : <LogoLight />}</StyledLogo>
+const Logo = () => {
+  return <StyledLogo><LogoSmall /></StyledLogo>
 }
 
 export default Logo
