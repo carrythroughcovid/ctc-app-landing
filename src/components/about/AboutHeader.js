@@ -14,7 +14,7 @@ const AltSub = styled.div`
 
 const Title = () => (
   <>
-    A platform<Alt>supporting small business</Alt>through COVID-19
+    A platform<Alt>supporting small business</Alt>through hardship
   </>
 )
 
