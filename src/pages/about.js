@@ -111,7 +111,6 @@ const MobileUpImage = styled(AbsoluteImage)`
 `
 
 const About = ({ data }) => {
-  const listingsTotal = data.allBusinesses.edges.length
   return (
     <>
       <SEO
@@ -151,10 +150,8 @@ const About = ({ data }) => {
 
         <SectionContainer color={theme.colour.red}>
           <ColumnSection>
-            <NumberTotal>{listingsTotal}</NumberTotal>
             <p style={{ color: 'white' }}>HELP EXPAND THE COMMUNITY</p>
             <p style={{ color: 'white' }}>
-              {listingsTotal} local businesses have signed up already
             </p>
           </ColumnSection>
           <ColumnSection>

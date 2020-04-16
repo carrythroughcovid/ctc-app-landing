@@ -21,14 +21,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-162050414-2',
+        trackingId: 'UA-162050414-3',
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Carry Through COVID`,
-        short_name: `ctc-web`,
+        name: `Carry App`,
+        short_name: `ctc-app-landing`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
