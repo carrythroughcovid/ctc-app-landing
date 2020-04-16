@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-const TITLE = 'Carry Through Covid'
+const TITLE = 'Carry App'
 
 const createTitle = title => (title ? `${TITLE} - ${title}` : `${TITLE}`)
 

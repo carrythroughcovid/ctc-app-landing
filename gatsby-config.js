@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Carry Through COVID`,
-        short_name: `ctc-web`,
+        name: `Carry App`,
+        short_name: `ctc-app-landing`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
