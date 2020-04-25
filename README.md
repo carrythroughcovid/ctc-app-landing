@@ -1,26 +1,26 @@
-# Carry Through COVID
+# Carry Through COVID - Landing Page
 
 > A place for business to list their offerings, and consumers to find what is available.
 
-This is a Gatsby app that builds content from the ![ctc-api](https://github.com/carrythroughcovid/ctc-api). Businesses can list their business and offerings through the web experience, and consumers can find businesses around them that are still operating.
+This is a Gatsby app that builds content from the [ctc-api](https://github.com/carrythroughcovid/ctc-api). Businesses can list their business and offerings through the web experience, and consumers can find businesses around them that are still operating.
 
 ## Dependencies
 
-- ![Nodejs](https://nodejs.org/en/download/)
-- ![Yarn](https://classic.yarnpkg.com/en/docs/install/)
+- [Nodejs](https://nodejs.org/en/download/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 
 ## Running locally
 
 Clone repo:
 
 ```sh
-git clone https://github.com/carrythroughcovid/ctc-web
+git clone https://github.com/carrythroughcovid/ctc-app-landing
 ```
 
 Change into directory:
 
 ```sh
-cd ctc-web
+cd ctc-app-landing
 ```
 
 Install dependencies:
