@@ -13,7 +13,8 @@ const AltSub = styled.div`
   color: ${({ theme }) => theme.colour.accent2};
 `
 
-const AppstoreContainer = styled.div`
+const AppstoreContainer = styled.a`
+  display: block;
   height: 1rem;
 `
 
@@ -33,7 +34,10 @@ const Actions = () => (
     <Button to="/signup" secondary large fixedWidth>
       Sign up now
     </Button>
-    <AppstoreContainer>
+    <AppstoreContainer
+      href="https://apps.apple.com/us/app/carry/id1507935945"
+      target="_blank"
+    >
       <Logo />
     </AppstoreContainer>
   </>
